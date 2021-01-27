@@ -1,0 +1,44 @@
+// Style Guide: https://github.com/georgeroubie/CSS-Style-Guide/blob/master/README.md
+// Style Lint: https://github.com/georgeroubie/CSS-Style-Guide/blob/master/.stylelintrc
+
+// Abstracts
+@import './assets/scss/abstracts/variables';
+@import './assets/scss/abstracts/colors';
+@import './assets/scss/abstracts/mixins';
+@import './assets/scss/abstracts/placeholders';
+@import './assets/scss/abstracts/classes';
+@import './assets/scss/abstracts/animations';
+
+// Vendors
+@import './assets/scss/vendors/example-library';
+
+// Base
+@import './assets/scss/base/base';
+@import './assets/scss/base/reset';
+@import './assets/scss/base/typography';
+
+// Layout (alphabetical order)
+@import './assets/scss/layout/footer';
+@import './assets/scss/layout/forms';
+@import './assets/scss/layout/grid';
+@import './assets/scss/layout/header';
+@import './assets/scss/layout/menu';
+@import './assets/scss/layout/tables';
+
+// Components (alphabetical order)
+@import './assets/scss/components/buttons';
+@import './assets/scss/components/dropdown';
+@import './assets/scss/components/loaders';
+@import './assets/scss/components/modals';
+
+// Vendors Extensions (alphabetical order)
+@import './assets/scss/vendors-extensions/example-library';
+
+// Pages (alphabetical order)
+@import './assets/scss/pages/contact';
+@import './assets/scss/pages/home';
+@import './assets/scss/pages/user-profile';
+
+// Themes (alphabetical order)
+@import './assets/scss/themes/admin';
+@import './assets/scss/themes/authenticated';
