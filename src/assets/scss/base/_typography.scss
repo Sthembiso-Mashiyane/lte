@@ -3,11 +3,12 @@
 // Root elements
 :root {
 	--font-family-sans-serif: 'Open Sans', sans-serif;
+	--font-family-helveticaNeue: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 html,
 body {
-	font-family: var(--font-family-sans-serif) !important;
+	font-family: var(--font-family-helveticaNeue) !important;
 	color: $theme-text;
 	font-weight: 400;
 }

@@ -1,10 +1,18 @@
 <template>
-$END$
+  <div class="">
+    <ProjectsATF></ProjectsATF>
+    <ProjectsInfo></ProjectsInfo>
+    <ProjectsGrid></ProjectsGrid>
+  </div>
 </template>
 
 <script>
+import ProjectsATF from "@/components/projects/ProjectsATF";
+import ProjectsInfo from "@/components/projects/ProjectsInfo";
+import ProjectsGrid from "@/components/projects/ProjectsGrid";
 export default {
-name: "projects"
+  name: "projects",
+  components: {ProjectsGrid, ProjectsInfo, ProjectsATF}
 }
 </script>
 

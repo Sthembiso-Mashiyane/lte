@@ -1,1 +1,14 @@
 // Header
+
+.header {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.lte-yellow {
+  color: $white;
+
+  &:hover {
+    color:$lte-yellow
+  }
+}

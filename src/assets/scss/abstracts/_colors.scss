@@ -4,10 +4,24 @@
 $white: #fff;
 $pickled-bluewood: #2f404f;
 $persianRed: #d32f2f;
+$lte-black: #717171;
+$lte-yellow: #FFAC18;
+$lte-card-black: #414141;
+
+//Card
+$lte-card-grey: #EAEAEA;
+.card-grey {
+	background-color: $lte-card-grey;
+}
+
+//footer
+$footer-yellow:#C39300;
+$footer-dark-grey: #313131;
+$footer-light-grey: #EBEBEB;
 
 // Theme CSS Color Variables
 :root {
-	--theme-text: #{$pickled-bluewood};
+	--theme-text: #{$lte-black};
 	--theme-background: #{$white};
 	--theme-error: #{$persianRed};
 }
@@ -16,3 +30,6 @@ $persianRed: #d32f2f;
 $theme-text: var(--theme-text);
 $theme-background: var(--theme-background);
 $theme-error: var(--theme-error);
+
+
+

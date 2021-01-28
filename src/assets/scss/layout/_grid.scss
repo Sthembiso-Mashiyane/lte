@@ -1,1 +1,8 @@
 // Custom grid system
+
+.atf {
+  height: 80vh;
+  @media only screen and (max-width: 600px) {
+    height: 100%;
+  }
+}

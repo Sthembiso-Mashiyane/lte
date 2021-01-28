@@ -1,1 +1,30 @@
 // Modals
+
+.negative-margin-top-250{
+    margin-top: -250px !important;
+}
+
+.yellow-card {
+    background-color:$lte-yellow;
+    color:$lte-card-black;
+}
+
+.card-img-overlay {
+    background-color: rgba(#000, 0.6);
+}
+
+@mixin big-card-image($size){
+    height: $size;
+    object-fit: cover;
+}
+
+.EMM_CARD {
+    @include big-card-image(40vw)
+}
+
+.COGTA_CARD {
+  @include big-card-image(15vw)
+}
+
+
+

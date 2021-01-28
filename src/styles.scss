@@ -1,6 +1,3 @@
-// Style Guide: https://github.com/georgeroubie/CSS-Style-Guide/blob/master/README.md
-// Style Lint: https://github.com/georgeroubie/CSS-Style-Guide/blob/master/.stylelintrc
-
 // Abstracts
 @import './assets/scss/abstracts/variables';
 @import './assets/scss/abstracts/colors';
@@ -18,6 +15,7 @@
 @import './assets/scss/base/typography';
 
 // Layout (alphabetical order)
+@import './assets/scss/layout/drawer';
 @import './assets/scss/layout/footer';
 @import './assets/scss/layout/forms';
 @import './assets/scss/layout/grid';
@@ -31,10 +29,8 @@
 @import './assets/scss/components/loaders';
 @import './assets/scss/components/modals';
 
-// Vendors Extensions (alphabetical order)
-@import './assets/scss/vendors-extensions/example-library';
-
 // Pages (alphabetical order)
+@import './assets/scss/pages/about';
 @import './assets/scss/pages/contact';
 @import './assets/scss/pages/home';
 @import './assets/scss/pages/user-profile';

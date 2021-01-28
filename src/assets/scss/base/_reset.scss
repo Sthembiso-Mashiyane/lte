@@ -7,9 +7,11 @@ body {
 	margin: 0;
 	width: 100vw;
 	height: 100vh;
+	font-size: 18px !important;
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-user-select: none;
 	-webkit-tap-highlight-color: transparent;
 	overscroll-behavior-y: contain;
+	scroll-behavior: smooth;
 }

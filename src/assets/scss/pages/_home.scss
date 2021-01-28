@@ -1,1 +1,9 @@
 // Specific style for home page
+.logo_homepage {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  //transform: translateY(-50%);
+  height: 80% !important;
+  z-index: 5;
+}

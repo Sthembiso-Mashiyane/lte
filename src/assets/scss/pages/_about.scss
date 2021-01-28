@@ -1,0 +1,19 @@
+#background {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50%;
+  background-color: $lte-yellow;
+  z-index: 0;
+}
+
+.AboutContent {
+  position: relative;
+  z-index:1
+}
+
+.z-index-5 {
+  z-index:5
+
+}

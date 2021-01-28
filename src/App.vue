@@ -1,28 +1,43 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar></Navbar>
+    <vue-page-transition name="fade-in-right">
+      <router-view></router-view>
+    </vue-page-transition>
+    <Footer></Footer>
   </div>
 </template>
 
+<style lang="scss">
+#app {
+
+}
+
+#nav {
+  padding: 30px;
+
+  a {
+    font-weight: bold;
+    color: #2c3e50;
+
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
+</style>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  components: {Navbar, Footer},
+  watch: {
+    '$route'(to, from) {
+      console.log(from)
+      document.title = 'LTE || ' + to.meta.title
+    },
+    immediate: true
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
