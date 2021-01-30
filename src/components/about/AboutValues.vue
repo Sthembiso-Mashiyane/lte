@@ -2,7 +2,7 @@
   <div class="AboutContent z">
     <div class="py-5 px-md-3">
       <div class="row">
-        <div class="col-md-6 px-5 offset-md-3">
+        <div class="col-md-12 col-lg-12 col-xl-12 col-sm-12 p-5 p-xl-100 m-xl-100">
           <carousel class="z-index-5 " perPage=1>
             <slide class="">
               <div class="p-2 p-md-5  shadow-lg m-md-5 h-100 card card-grey text-center">
