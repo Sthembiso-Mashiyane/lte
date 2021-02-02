@@ -50,7 +50,7 @@
           <md-progress-bar md-mode="indeterminate" v-if="sending"/>
 
           <md-card-actions>
-            <md-button type="submit" class="md-primary" :disabled="sending">Submit</md-button>
+            <md-button type="submit" class=" btn" :disabled="sending">Submit</md-button>
           </md-card-actions>
         </div>
 
@@ -174,6 +174,13 @@ export default {
 
 * {
   background-color: #D5D5D5;
+}
+
+.btn {
+  background-color: #707070;
+  border-color: #707070;
+  border-radius: 12px; ;
+  color: #D5D5D5;
 }
 </style>
 
