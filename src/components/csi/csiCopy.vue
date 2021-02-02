@@ -1,19 +1,47 @@
 <template>
   <div class="yellow-card">
-    <div class="">
-      <h3></h3>
-      <p>
-      </p>
+    <div class="row">
+      <div class="r p-10">
+        <h3>{{ columns.hTag }}</h3>
+      </div>
+      <div class="col md-10 p" v-for="p in columns.pTag" :key="p">
+        <div class="">
+          <div class="">
+            <p>{{ p }}</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import json from "@/info/projects.json";
 export default {
-  name: "csiCopy"
-}
+  name: "csiCopy",
+  props: ["selectedId"],
+  data() {
+    return {
+      columns: [],
+    };
+  },
+  watch: {
+    selectedId: function(newVal, oldVal) {
+      console.log(oldVal);
+      var obj = json.filter((b) => b.id == newVal)[0];
+      this.columns = obj;
+    },
+  },
+};
 </script>
 
 <style scoped>
-
+.r {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+.p {
+  margin: 20px;
+}
 </style>
