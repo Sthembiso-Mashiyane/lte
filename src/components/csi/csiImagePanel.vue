@@ -32,7 +32,7 @@
           </div>
         </div>
       </div>
-  
+
       <div
         class="col-md-6 col-lg-6 c"
         @click="onImageClick('miss-south-africa')"
@@ -50,7 +50,7 @@
           </div>
         </div>
       </div>
-          <div
+      <div
         class="col-md-12  col-lg-6 c"
         @click="onImageClick('lion-park-primary')"
       >
@@ -79,12 +79,14 @@ export default {
   },
   props: ["id"],
   methods: {
-    onImageClick(name) {
+    onImageClick(id) {
       console.log(
         '[Event from "Image Panel"] Tell parent to change selected child to: ',
-        name
+        id
       );
-      this.$emit("onChangeSelectedCorousel", name);
+      if (this.$router.history.current.params.id !== id) { // Avoid redundant attempt to navigate
+        this.$router.push(`/csi/${id}`);
+      }
     },
   },
 };

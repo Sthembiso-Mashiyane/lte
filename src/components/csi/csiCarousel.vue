@@ -44,12 +44,10 @@ import json from "@/info/projects.json";
 
 export default {
   name: "csiCarousel",
-  props: ["selectedId"],
   components: { Carousel, Slide },
   beforeMount() {
     this.id = this.$route.params.id;
-    this.info = json.filter((d) => d.id === this.id);
-    this.imagesURLS = this.info[0].images;
+    this.renderSelected(this.id);
   },
   data() {
     return {
@@ -65,13 +63,9 @@ export default {
     };
   },
   watch: {
-    selectedId: function(newVal, oldVal) {
-      console.log(
-        `Parent says I should change sibling to: ${newVal}, from ${oldVal}`
-      );
-      var obj = this.galleryGroups.filter((b) => b.id == newVal)[0];
-      obj.images = this.requireImages(obj.id);
-      this.selectedImages = obj;
+    $route: function(to, from) {
+      console.log("routing from: ", from.params);
+      this.renderSelected(to.params.id);
     },
   },
   computed: {
@@ -114,7 +108,19 @@ export default {
           url: require("@/assets/images/csi/MRS SOUTH AFRICA/IMG-20190618-WA0015.jpg"),
         },
       ];
+
+      imgs["bbq-awards"] = [
+        {
+          id: 1,
+          url: require("@/assets/images/csi/BBQ/BBQ_2020.jpg"),
+        },
+      ];
       return imgs[index];
+    },
+    renderSelected(id) {
+      var obj = this.galleryGroups.filter((b) => b.id == id)[0];
+      obj.images = this.requireImages(obj.id);
+      this.selectedImages = obj;
     },
   },
 };

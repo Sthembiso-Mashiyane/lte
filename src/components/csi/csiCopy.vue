@@ -26,12 +26,20 @@ export default {
     };
   },
   watch: {
-    selectedId: function(newVal, oldVal) {
-      console.log(oldVal);
-      var obj = json.filter((b) => b.id == newVal)[0];
-      this.columns = obj;
+    '$route': function(to, from) {
+      console.log(from.params.id);
+      this.render(to.params.id);
     },
   },
+  beforeMount: function () {
+    this.render(this.$route.params.id);
+  },
+  methods: {
+    render(id) {
+      var obj = json.filter((b) => b.id == id)[0];
+      this.columns = obj;
+    }
+  }
 };
 </script>
 
