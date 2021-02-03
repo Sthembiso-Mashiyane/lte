@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div class="position-relative">
-      <img src="../../assets/images/contact/contactATF.png" class="img-fluid" alt="">
+      <img src="../../assets/images/contact/contactATF.png" class="img-fluid atf" alt="">
       <div class="overlay">
       </div>
     </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="position-relative">
-    <img src="../../assets/images/about-us/about-us-atf.png" alt="" class="img-fluid">
+    <img src="../../assets/images/about-us/about-us-atf.png" alt="" class="img-fluid atf">
     <div class="overlay"></div>
   </div>
 </template>

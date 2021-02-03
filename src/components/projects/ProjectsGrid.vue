@@ -309,7 +309,7 @@
                 >
                   <slide v-for="pic in selectedProject.pictures" :key="pic.id">
                     <div class="img">
-                      <img :src="pic.url" />
+                      <img :src="pic.url" class="img-fluid" />
                     </div>
                   </slide>
                 </carousel>
@@ -445,7 +445,7 @@ export default {
                       PROJECT LOCATION: CITY OF EKHURHULENI <br/>
                       PROJECT VALUE: R 750M <br/>
                       PROJECT SUMMARY: <br/>  <br/> `,
-          text: `LTE was mandated to provide expert engineering services for the Ekurhuleni Metropolitan Municipality (EMM), 
+          text: `LTE was mandated to provide expert engineering services for the Ekurhuleni Metropolitan Municipality (EMM),
                  which is attending to the needs of its residents for improved mobility and an overall enhancement of their travel experience. EMM is implementing phase 1A of the Integrated Rapid Transit Network (IRPTN) which currently spans from Tembisa to Kempton Park. <br/>`,
           url: require("@/assets/docx/EMM_BRT.docx"),
         },
@@ -492,7 +492,7 @@ export default {
                       PROJECT LOCATION: OR TAMBO INTERNATIONAL AIRPORT, CITY OF EKHURHULENI <br/>
                       PROJECT VALUE: R 45M <br/><br/>`,
           text: `LTE Consulting was appointed by ACSA to undertake work on the extension of the international departures bussing gates at OR Tambo International Airport. <br/><br/>
-                 The works currently taking place at Oliver Tambo International Airport include the development of a current strip of land located between the airport’s runways which is referred to as Midfield. 
+                 The works currently taking place at Oliver Tambo International Airport include the development of a current strip of land located between the airport’s runways which is referred to as Midfield.
                  The development will consist of two major terminal precincts of which additional gates are required to expand the capacity of the terminal buildings to ensure that the new and remote terminal are suitably fed from the new gates. In order to achieve this master plan, the bussing gate program is being divided into two phases. The terminal building is being constructed to accommodate a minimum of ten additional international bussing gates.  So far it has been established that there will be four additional gates constructed under Phase 1 and ten additional bussing gates under Phase 2. <br/>`,
           url: require("@/assets/docx/ACSA.docx"),
         },
@@ -524,7 +524,7 @@ export default {
                       PROJECT VALUE: R 450M <br/>
                       PROJECT SUMMARY: <br/><br/>`,
           text: `LTE Consulting was appointed by ACSA to undertake work on the extension of the international departures bussing gates at OR Tambo International Airport. <br/><br/>
-                 The works currently taking place at Oliver Tambo International Airport include the development of a current strip of land located between the airport’s runways which is referred to as Midfield. 
+                 The works currently taking place at Oliver Tambo International Airport include the development of a current strip of land located between the airport’s runways which is referred to as Midfield.
                  The development will consist of two major terminal precincts of which additional gates are required to expand the capacity of the terminal buildings to ensure that the new and remote terminal are suitably fed from the new gates. In order to achieve this master plan, the bussing gate program is being divided into two phases. The terminal building is being constructed to accommodate a minimum of ten additional international bussing gates.  So far it has been established that there will be four additional gates constructed under Phase 1 and ten additional bussing gates under Phase 2. <br/>`,
           url: require("@/assets/docx/LENASIA.docx"),
         },
@@ -559,7 +559,7 @@ export default {
           subHeader: `PROJECT NAME: WELBEDACHT PIPELINE <br/>
                     PROJECT LOCATION: BLOEMFONTEIN, MANGAUNG METROPOLITAN MUNICIPALITY <br/>
                     PROJECT VALUE: R 450M <br/>
-                    PROJECT SUMMARY: <br/>  
+                    PROJECT SUMMARY: <br/>
                     Project Background  <br/><br/>`,
           text: `The Caledon-Bloemfontein Potable Water Supply Scheme, representing the principal bulk water supply to Mangaung Metropolitan Municipality (MMM) supplies water from the Welbedacht Dam Water Treatment Plant (WTP) to nearby De Hoek Reservoir, from where it gravitates via Uitkijk Reservoir
                  to Brandkop Reservoir located in Bloemfontein. The entire 105,7km section of the gravity pipeline between De Hoek and Brandkop Reservoirs has reached its design lifespan, and due to its poor condition experiences water leakages and is prone to frequent bursts resulting in severe water disruptions to the Mangaung area spillway. <br/>`,
@@ -588,7 +588,7 @@ export default {
                       PROJECT LOCATION: CITY OF TSHWANE <br/>
                       PROJECT VALUE: R 90M <br/>
                       PROJECT SUMMARY: <br/><br/>`,
-          text: `The City of Tshwane (CoT) has embarked on the project to upgrade and extend the Temba and Babelegi Waste Water Treatment Works 
+          text: `The City of Tshwane (CoT) has embarked on the project to upgrade and extend the Temba and Babelegi Waste Water Treatment Works
                 (WWTW) to address the large backlog in the provision of waterborne sanitation to the communities in the greater Temba area. The project is an essential to remove to the development constraint caused by the lack of capacity at the WWTW’s to the development of the area. More than 36 000 existing residential stands will benefit from this project and unlock further economic development in the area. <br/>`,
           url: require("@/assets/docx/TEMBA.docx"),
         },

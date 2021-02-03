@@ -1,7 +1,7 @@
 <template>
   <div class="">
     <div v-if="this.$isMobile()" class="position-relative p-md-5 p-2" >
-      <carousel class="row p-md-5 z-index-5" per-page="1">
+      <carousel class="row p-md-5 z-index-5 " navigationEnabled="true" per-page="3">
         <slide class=" z-index-5 col-12 col-md-4 pb-2">
           <div>
             <div class="h-100 card card-grey ">
