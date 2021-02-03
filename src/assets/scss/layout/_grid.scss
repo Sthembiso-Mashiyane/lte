@@ -2,7 +2,10 @@
 
 .atf {
   height: 80vh;
+  width: 100%;
+  object-fit: cover;
   @media only screen and (max-width: 600px) {
     height: 100%;
+    background-size: cover;
   }
 }
