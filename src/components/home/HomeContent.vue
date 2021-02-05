@@ -22,7 +22,7 @@
           <div class=" card-block d-flex">
             <div class="card-body text-left">
               <div class="row ">
-                <h2 class="h4">CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED STRUCTURAL MODIFICATIONS
+                <h2 class="h4 font-weight-bold">CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED STRUCTURAL MODIFICATIONS
                 </h2>
               </div>
               <div class="row pt-5"><p>
@@ -50,7 +50,7 @@
                 <div class=" card-block d-flex">
                   <div class="card-body text-left">
                     <div class="row ">
-                      <h2 class="h2">CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED STRUCTURAL MODIFICATIONS
+                      <h2 class="h2 font-weight-bold">CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED STRUCTURAL MODIFICATIONS
                       </h2>
                     </div>
                     <div class="row pt-5"><p>
@@ -74,7 +74,7 @@
           <div class=" card-block d-flex">
             <div class="card-body text-left">
               <div class="row ">
-                <h2 class="h4">OFFERING AWARD WINNING EXPERTISE
+                <h2 class="h4 font-weight-bold">OFFERING AWARD WINNING EXPERTISE
                 </h2>
               </div>
               <div class="row pt-5"><p>
