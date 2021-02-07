@@ -2,7 +2,7 @@
   <div class="container-fluid p-md-5 pt-3">
     <div class="row">
       <div
-        class="col-md-12  col-lg-6 c"
+        class="col-md-3"
         @click="onImageClick('nyakalong-home')"
       >
         <div class="card mb-2 text-white">
@@ -12,13 +12,13 @@
             alt="WELBEDACHT PIPELINE"
           />
           <div class="card-img-overlay h-100">
-            <h5 class="card-title card-title font-weight-bold h1">
+            <h5 class="card-title card-title font-weight-bold h3">
               NYAKALLONG HOME
             </h5>
           </div>
         </div>
       </div>
-      <div class="col-md-6 col-lg-6 c" @click="onImageClick('bbq-awards')">
+      <div class="col-md-3" @click="onImageClick('bbq-awards')">
         <div class="card mb-2 text-white">
           <img
             src="../../assets/images/csi/BBQ/BBQ_2020.jpg"
@@ -26,7 +26,7 @@
             alt="WELBEDACHT PIPELINE"
           />
           <div class="card-img-overlay h-100">
-            <h5 class="card-title card-title font-weight-bold h1">
+            <h5 class="card-title card-title font-weight-bold h3">
               BBQ AWARDS
             </h5>
           </div>
@@ -34,7 +34,7 @@
       </div>
 
       <div
-        class="col-md-6 col-lg-6 c"
+        class="col-md-3"
         @click="onImageClick('miss-south-africa')"
       >
         <div class="card mb-2 text-white">
@@ -44,14 +44,14 @@
             alt="WELBEDACHT PIPELINE"
           />
           <div class="card-img-overlay h-100">
-            <h5 class="card-title card-title font-weight-bold h1">
+            <h5 class="card-title card-title font-weight-bold h3">
               MISS SOUTH AFRICA
             </h5>
           </div>
         </div>
       </div>
       <div
-        class="col-md-12  col-lg-6 c"
+        class="col-md-3"
         @click="onImageClick('lion-park-primary')"
       >
         <div class="card mb-2 text-white">
@@ -61,7 +61,7 @@
             alt="WELBEDACHT PIPELINE"
           />
           <div class="card-img-overlay h-100">
-            <h5 class="card-title card-title font-weight-bold h1">
+            <h5 class="card-title card-title font-weight-bold h3">
               LION PARK PRIMARY
             </h5>
           </div>

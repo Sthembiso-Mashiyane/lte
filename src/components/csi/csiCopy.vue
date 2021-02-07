@@ -2,7 +2,7 @@
   <div class="yellow-card">
     <div class="row">
       <div class="r p-10">
-        <h3>{{ columns.hTag }}</h3>
+        <h3 class="h2 font-weight-bolder">{{ columns.hTag }}</h3>
       </div>
       <div class="col md-10 p" v-for="p in columns.pTag" :key="p">
         <div class="">

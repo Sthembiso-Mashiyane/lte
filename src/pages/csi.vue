@@ -6,9 +6,9 @@
     <GalleryATF></GalleryATF>
     <csi-blurb id="blurb"></csi-blurb>
     <csi-carousel id="carousel"></csi-carousel>
+    <csi-copy id="copy" v-bind:selectedId="selectedId"></csi-copy>
     <csi-image-panel id="panel"
     ></csi-image-panel>
-    <csi-copy id="copy" v-bind:selectedId="selectedId"></csi-copy>
   </div>
 </template>
 

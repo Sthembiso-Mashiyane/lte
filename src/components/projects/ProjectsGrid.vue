@@ -316,7 +316,7 @@
               </div>
             </div>
             <div class="row r">
-              <h1 class="w-100">{{ selectedProject.name }}</h1>
+              <h3 class="w-100">{{ selectedProject.name }}</h3>
             </div>
             <div class="row r sub-header">
               <span v-html="selectedProject.subHeader"></span>
@@ -826,14 +826,14 @@ body {
   }
 }
 
-.img img {
-  min-width: 100% !important;
-  min-height: 500px;
-  object-fit: cover;
-  border-radius: 3px;
-  /* background-color: white; */
-  box-shadow: 0 3px 20px 11px rgba(0, 0, 0, 0.09);
-}
+/*.img img {*/
+/*  min-width: 100% !important;*/
+/*  min-height: 500px;*/
+/*  object-fit: cover;*/
+/*  border-radius: 3px;*/
+/*  !* background-color: white; *!*/
+/*  box-shadow: 0 3px 20px 11px rgba(0, 0, 0, 0.09);*/
+/*}*/
 .corousel-dev .VueCarousel-pagination {
   position: absolute !important;
   bottom: 10px !important;
