@@ -45,10 +45,15 @@
       <div class="col-md-4">
         <h4 class="footer-yellow">WHATS NEW</h4>
         <ul class="no-indent">
-          <li>News</li>
-          <li>CSI</li>
-          <li>Projects</li>
-          <li>Gallery</li>
+          <li>
+            <router-link to="/csi">CSI</router-link>
+          </li>
+          <li>
+            <router-link to="/projects">Projects</router-link>
+          </li>
+          <li>
+            <router-link to="">Gallery</router-link>
+          </li>
         </ul>
       </div>
       <div class="col-md-8 offset-md-2">

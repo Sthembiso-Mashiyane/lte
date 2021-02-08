@@ -22,7 +22,8 @@
           <div class=" card-block d-flex">
             <div class="card-body text-left">
               <div class="row ">
-                <h2 class="h4 font-weight-bold">CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED STRUCTURAL MODIFICATIONS
+                <h2 class="h4 font-weight-bold">CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED STRUCTURAL
+                  MODIFICATIONS
                 </h2>
               </div>
               <div class="row pt-5"><p>
@@ -42,7 +43,7 @@
     <div class="position-relative">
       <img src="../../assets/images/home/content-image-3.jpg" class="img-move img-move-1 img-fluid"
            alt="LTE Image 1">
-      <div class="col-md-6 p-5 card text-center yellow-card img-move img-move-2 img-fluid">
+      <div class="col-md-6 p-md-5 card text-center yellow-card img-move img-move-2 img-fluid">
         <div class="text-center my-auto">
           <div class=" card-block d-flex">
             <div class="card-body align-items-center d-flex justify-content-center">
@@ -50,12 +51,12 @@
                 <div class=" card-block d-flex">
                   <div class="card-body text-left">
                     <div class="row ">
-                      <h2 class="h2 font-weight-bold">CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED STRUCTURAL MODIFICATIONS
+                      <h2 class="h2 font-weight-bold">EFFECTING QUALITY PROCESSES TO IMPROVE BUSINESSES
                       </h2>
                     </div>
                     <div class="row pt-5"><p>
-                      With the proficient planning and cost-effective completion of the projects, LTE Holdings inspires the
-                      improvement in the conditions and quality of life in the African population.
+                      By respecting a value chain, a collective decision, people and time, LTE Holdings approaches all
+                      projects with attention to detail to ensure successful results for all stakeholders.
                     </p></div>
 
                   </div>
