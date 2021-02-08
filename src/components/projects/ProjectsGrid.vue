@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col">
-           <div class="all-proj-btn">
+        <div class="all-proj-btn">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="250"
@@ -717,6 +717,18 @@ export default {
       }
     },
   },
+  mounted() {
+    var self = this;
+    $("#projModal").on("shown.bs.modal", function() {
+      const imgs = self.selectedProject.pictures;
+      self.selectedProject.pictures = null;
+      // setTimeout(() => {
+        console.log(imgs);
+      self.selectedProject.pictures = imgs;
+      // });
+      console.log(self.selectedProject);
+    });
+  },
 };
 </script>
 
@@ -872,6 +884,6 @@ body {
   color: #5c5a5a;
   transform: scale(1.02);
   cursor: pointer;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 </style>
