@@ -54,6 +54,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    'bootstrap-vue/nuxt'
   ],
   /*
   ** Build configuration
@@ -66,12 +67,13 @@ export default {
     // (pdf|docx?|xlsx?|csv|pptx?)
     extend (config, ctx) {
       config.module.rules.push({
-        test: /\.(pdf|docx?|xlsx?|csv|pptx?g)$/i,
+        test: /\.(mp3|pdf|docx?|xlsx?|csv|pptx?g)$/i,
         loader: 'file-loader',
         options: {
           name: 'downloads/[name].[ext]'
         }
       })
+
     }
   }
 }

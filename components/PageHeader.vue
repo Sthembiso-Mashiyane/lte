@@ -15,9 +15,6 @@
         </div>
       </div>
     </div>
-    <div class="page-shadow">
-      <img src="/assets/images/page-shadow.png" alt="">
-    </div>
   </div>
 </template>
 

@@ -305,7 +305,16 @@
                   </div>
                 </div>
               </swiper-slide>
+              <!-- <div class="swiper-pagination" slot="pagination"></div> -->
             </swiper>
+          </div>
+          <div class="row">
+            <div class="col text-right">
+              <button class="btn slide-btn" id="btn-prev">«</button>
+            </div>
+            <div class="col text-left">
+              <button class="btn slide-btn" id="btn-next">»</button>
+            </div>
           </div>
         </div>
       </div>
@@ -337,11 +346,15 @@ export default {
       swiperOptions: {
         slidesPerView: 2,
         loop: true,
-        speed: 3000,
+        speed: 2000,
         spaceBetween: 30,
         autoplay: {
-          delay: 3000,
+          delay: 5000,
           disableOnInteraction: false
+        },
+        navigation: {
+          nextEl: "#btn-next",
+          prevEl: "#btn-prev"
         },
         // Responsive breakpoints
         breakpoints: {
@@ -365,14 +378,6 @@ export default {
 </script>
 
 <style scoped>
-.client-item::-webkit-scrollbar {
-  display: none;
-}
-
-.client-item {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
-}
 .client-area {
   background-color: #ffac18;
 }
@@ -382,12 +387,18 @@ export default {
 }
 .client-full {
   left: 0%;
-  margin: 1%;;
+  margin: 1%;
 }
 .user {
-  padding-left: 0!important;
+  padding-left: 0 !important;
 }
 ul {
-  list-style: disc!important;
+  list-style: disc !important;
+}
+.slide-btn {
+  color: aliceblue;
+}
+.slide-btn:active{
+  border:none;
 }
 </style>
