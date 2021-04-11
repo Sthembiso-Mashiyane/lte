@@ -109,4 +109,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.header-top-2 {
+  padding: 6px!important;
+}
+</style>

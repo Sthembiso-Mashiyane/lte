@@ -1,6 +1,6 @@
 <template>
   <div class="row yellow-card mx-auto text-center">
-    <div class="col-10 mt-5 ml-5 pl-5 ">
+    <div class="col-10 mx-auto mt-5">
       <div class="mt-5">
         <div class="mt-5">
           <swiper :options="swiperOptions">

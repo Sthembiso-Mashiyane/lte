@@ -4,7 +4,6 @@
       <a class="link"
         :href="link.url"
         target="_blank"
-        :download="link.name"
       >{{link.name}}</a>
       <hr/>
     </div>

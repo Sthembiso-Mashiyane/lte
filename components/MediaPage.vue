@@ -18,7 +18,7 @@
                 <div class="col-lg-4 text-center ">
                   <div class="item">
                     <div class="m-5">
-                      <a :href="mp3" target="_blank" download="Radio interview">
+                      <a :href="mp3" target="_blank">
                         <img
                           src="../assets/radioIcon.png"
                           class="fluid"
@@ -32,7 +32,7 @@
                 <div class="col-lg-4 text-center ">
                   <div class="item">
                     <div class="m-5">
-                      <a :href="article" target="_blank" download="News Letter">
+                      <a :href="article" target="_blank">
                         <img
                           src="../assets/newsletter.png"
                           class="fluid"
