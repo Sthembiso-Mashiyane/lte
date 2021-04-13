@@ -18,23 +18,25 @@ import pdf5 from "../assets/docx/media-news/Saturday_Star_30July2016_Sweetwaters
 import pdf6 from "../assets/docx/media-news/Sunday_Independent_31July2016_Lepelle.pdf";
 export default {
   name: "MediaFilesList",
+  props: ['year'],
   data() {
     return {
       pdfFiles: []
     };
   },
   mounted() {
-    this.pdfFiles = [
-      { name: "Business Day 22July2016 Lesotho Highlands.pdf", url: pdf1 },
+    const allPdfs = [
+      { year: '2016',name: "Business Day 22July2016 Lesotho Highlands.pdf", url: pdf1 },
       {
-        name:
+        year: '2020',name:
           "M119 Protocols for LTE Operations Under Level4 Lockdown Restrictions 1.pdf",
         url: pdf2
       },
-      { name: "M122 Gradual Resumption of Office Operations.pdf", url: pdf4 },
-      { name: "Saturday Star 30July2016 Sweetwaters.pdf", url: pdf5 },
-      { name: "Sunday Independent 31July2016 Lepelle.pdf", url: pdf6 }
+      { year: '2020',name: "M122 Gradual Resumption of Office Operations.pdf", url: pdf4 },
+      { year: '2016',name: "Saturday Star 30July2016 Sweetwaters.pdf", url: pdf5 },
+      { year: '2016',name: "Sunday Independent 31July2016 Lepelle.pdf", url: pdf6 }
     ];
+    this.pdfFiles = allPdfs.filter(x => x.year === this.year);
   }
 };
 </script>

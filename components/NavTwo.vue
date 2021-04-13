@@ -110,7 +110,13 @@ export default {
 </script>
 
 <style scoped>
+
+@media only screen and (min-width: 992px) {
 .header-top-2 {
   padding: 6px!important;
+}
+.header-info{
+  margin-left: 230px;
+}
 }
 </style>
