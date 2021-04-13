@@ -38,7 +38,7 @@
             >
               <div class="main-header-menus  d-flex">
                 <div class="header-logo">
-                  <a href="/index-2"
+                  <a href="/"
                     ><img src="/assets/images/lte-header-logo.png" alt="logo"
                   /></a>
                 </div>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="header-menu d-none d-lg-block">
                   <ul>
-                    <li><nuxt-link to="/index-2">Home</nuxt-link></li>
+                    <li><nuxt-link to="/">Home</nuxt-link></li>
                     <li><nuxt-link to="/about">About</nuxt-link></li>
                     <li><nuxt-link to="/media">Media</nuxt-link> </li>
                     <li><nuxt-link to="/projects">Projects</nuxt-link></li>
