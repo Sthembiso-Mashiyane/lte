@@ -8,13 +8,13 @@
               <div class="header-info">
                 <ul>
                   <li>
-                    <a href="#"
+                    <a href="mailto:needhelp@lteconsulting.co.za"
                       ><i class="flaticon-email-2"></i>
                       needhelp@lteconsulting.co.za</a
                     >
                   </li>
                   <li>
-                    <a href="#"><i class="flaticon-pin"></i> (011) 061 5700</a>
+                    <a href="tel:0110615700"><i class="flaticon-pin"></i> (011) 061 5700</a>
                   </li>
                   <li>
                     <a href="#"

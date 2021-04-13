@@ -17,7 +17,7 @@
                     >
                   </div>
                   <div class="call">
-                    <a href="tel:6668880000">(011) 061 5700</a>
+                    <a href="tel:0110615700">(011) 061 5700</a>
                   </div>
                 </div>
               </div>
