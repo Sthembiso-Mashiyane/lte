@@ -18,7 +18,7 @@
   import GMap from "../components/GMap";
 import ContactInfo from '../components/ContactInfo.vue';
 import Footer from '../components/Footer.vue';
-import imgUrl from '~/assets/contactATF.png'
+import imgUrl from '~/assets/new-contact.jpg';
   export default {
     components: {
       GMap,

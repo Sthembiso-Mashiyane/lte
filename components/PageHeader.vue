@@ -10,7 +10,7 @@
         <div class="col-xs-12 col-sm-12 col-md-8"></div>
         <div class="col-xs-12 col-sm-12 col-md-4 text-center">
            <div v-if="isHome" class="home-logo pt-5">
-              <img src="../assets/home/logo-transparent.png" class="logo" alt="">
+              <img src="../assets/lte-header-logo.png" class="logo" alt="">
             </div>
         </div>
       </div>
@@ -42,9 +42,9 @@
   }
 
   .logo {
-    width: 100%;
+    width: 70%;
     height: auto;
-    float: left;
+    float: right;
   }
 
   .home-logo {

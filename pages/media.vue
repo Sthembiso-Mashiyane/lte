@@ -12,7 +12,7 @@ import NavTwo from "../components/NavTwo";
 import Footer from "../components/Footer";
 import PageHeader from "../components/PageHeader";
 import MediaPage from "../components/MediaPage";
-import imgUrl from "~/assets/mediaATF.png";
+import imgUrl from "~/assets/new-media.jpg";
 export default {
   components: {
     PageHeader,

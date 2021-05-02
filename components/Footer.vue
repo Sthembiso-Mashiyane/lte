@@ -3,6 +3,18 @@
     <footer class="footer-area">
       <div class="container">
         <div class="footer-main">
+          <div class="row footer-light-grey">
+            <div class="col-md-4 p-5 my-auto">
+              <img :src="img1" class="img-fluid m-auto d-block" alt="dekra" />
+            </div>
+            <div class="col-md-4 p-5 my-auto">
+              <img :src="img2" class="img-fluid m-auto d-block" alt="bee" />
+            </div>
+            <div class="col-md-4 p-5 my-auto">
+              <img :src="img3" class="img-fluid m-auto d-block" alt="20years" />
+            </div>
+          </div>
+          <hr class="liner"/>
           <div class="row">
             <div class="col-lg-4 col-md-6">
               <div class="footer-widget mt-30">
@@ -32,41 +44,40 @@
                     <li>
                       <a class="footer-link" href="#"
                         ><nuxt-link to="/expertise"
-                          ><i class="fa fa-angle-right"></i
-                        >Civil & Structural Engineering</nuxt-link
+                          ><i class="fa fa-angle-right"></i>Civil & Structural
+                          Engineering</nuxt-link
                         ></a
                       >
                     </li>
                     <li>
                       <a class="footer-link" href="#"
                         ><nuxt-link to="/expertise"
-                          ><i class="fa fa-angle-right"></i
-                        >Electrical & Mechanical</nuxt-link
+                          ><i class="fa fa-angle-right"></i>Electrical &
+                          Mechanical</nuxt-link
                         ></a
                       >
                     </li>
                     <li>
                       <a class="footer-link" href="#"
                         ><nuxt-link to="/expertise"
-                          ><i class="fa fa-angle-right"></i
-                        >Quantity Surveying</nuxt-link
+                          ><i class="fa fa-angle-right"></i>Quantity
+                          Surveying</nuxt-link
                         ></a
                       >
                     </li>
                     <li>
                       <a class="footer-link" href="#"
                         ><nuxt-link to="/expertise"
-                          ><i class="fa fa-angle-right"></i
-                        >Traffic & Transportation & Urban Planning</nuxt-link
+                          ><i class="fa fa-angle-right"></i>Traffic &
+                          Transportation & Urban Planning</nuxt-link
                         >
                       </a>
                     </li>
                     <li>
                       <a class="footer-link" href="#"
                         ><nuxt-link to="/expertise">
-                         <i class="fa fa-angle-right"></i
-                        > Construction & Contract Monitoring & Project
-                          Management</nuxt-link
+                          <i class="fa fa-angle-right"></i> Construction &
+                          Contract Monitoring & Project Management</nuxt-link
                         ></a
                       >
                     </li>
@@ -82,40 +93,46 @@
                 <div class="footer-about-list d-flex">
                   <ul class="mr-70">
                     <li>
-                      <a class="footer-link" href="#"><nuxt-link to="/about"
+                      <a class="footer-link" href="#"
+                        ><nuxt-link to="/about"
                           ><i class="fa fa-angle-right"></i> About
-                           </nuxt-link>
-                          </a>
+                        </nuxt-link>
+                      </a>
                     </li>
                     <li>
-                      <a class="footer-link" href="#"><nuxt-link to="/media"
+                      <a class="footer-link" href="#"
+                        ><nuxt-link to="/media"
                           ><i class="fa fa-angle-right"></i> Media
-                          </nuxt-link>
-                          </a>
+                        </nuxt-link>
+                      </a>
                     </li>
                     <li>
-                      <a class="footer-link" href="#"><nuxt-link to="/projects"
+                      <a class="footer-link" href="#"
+                        ><nuxt-link to="/projects"
                           ><i class="fa fa-angle-right"></i> Projects
-                           </nuxt-link>
-                          </a>
+                        </nuxt-link>
+                      </a>
                     </li>
                     <li>
-                      <a class="footer-link" href="#"><nuxt-link to="/expertise"
+                      <a class="footer-link" href="#"
+                        ><nuxt-link to="/expertise"
                           ><i class="fa fa-angle-right"></i> Expertise
-                           </nuxt-link>
-                          </a>
+                        </nuxt-link>
+                      </a>
                     </li>
                     <li>
-                      <a class="footer-link" href="#"><nuxt-link to="/csi"
+                      <a class="footer-link" href="#"
+                        ><nuxt-link to="/csi"
                           ><i class="fa fa-angle-right"></i> CSI
-                           </nuxt-link>
-                          </a>
+                        </nuxt-link>
+                      </a>
                     </li>
                     <li>
-                      <a class="footer-link" href="#"><nuxt-link to="/contact"
+                      <a class="footer-link" href="#"
+                        ><nuxt-link to="/contact"
                           ><i class="fa fa-angle-right"></i> Contact
-                           </nuxt-link>
-                          </a>
+                        </nuxt-link>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -159,11 +176,17 @@
 </template>
 
 <script>
+import img1 from "~/assets/footer/dekra.png";
+import img2 from "~/assets/footer/beeLevel.png";
+import img3 from "~/assets/footer/20years.png";
 export default {
   name: "Footer",
   data() {
     return {
-      scrollBtn: false
+      scrollBtn: false,
+      img1,
+      img2,
+      img3
     };
   },
   mounted() {
@@ -188,7 +211,12 @@ export default {
 
 <style scoped>
 .footer-link {
-  margin-left: 2%!important;
+  margin-left: 2% !important;
   width: 100%;
+}
+
+.liner {
+  color: #EBEBEB;
+  background-color: #EBEBEB;
 }
 </style>

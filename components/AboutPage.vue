@@ -4,12 +4,12 @@
       <div class="my-5 w-100">
         <div class="w-100">
           <div class="row">
-            <div class="px-5 col-md-6 col-12 offset-md-3">
+            <div class="col-md-12 col-12">
               <h1 class="h2 font-weight-bold text-center">ABOUT US</h1>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-6 col-12 offset-md-3">
+            <div class="col-md-12 col-12 pt-3">
               <p class="w-100 text-center">
                 LTE Consulting is a leading service provider, and notably the
                 only 100% black-owned company, ISO 9001 Certified, engineering
@@ -44,4 +44,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+  .about-area {
+    padding: 0%;
+  }
+</style>
