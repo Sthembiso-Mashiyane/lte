@@ -8,10 +8,10 @@
               <img :src="proj.imgUrl" alt="projects" />
             </div>
             <div class="project-content">
-              <nuxt-link :to="{name: 'projects-project', params: {project: proj.url_id}}"
-                ><span>{{proj.name}}</span></nuxt-link
-              >
+              <nuxt-link :to="{name: 'projects-project', params: {project: proj.url_id}}">
+              <span>{{proj.name}}</span>
               <p v-html="proj.subHeader"></p>
+          </nuxt-link>
             </div>
           </div>
         </div>
@@ -204,4 +204,5 @@ export default {
         width: 570px;
         height: 380px;
   }
+
 </style>
