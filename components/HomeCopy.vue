@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="pt-5 col-md-6 col-12 offset-md-3">
+        <div class="pt-3 col-md-12 col-12">
           <p class="w-100 text-center">
             LTE Holdings focuses its efforts in the growth of the African landscape by providing expertise in
             construction,

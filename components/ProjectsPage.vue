@@ -204,5 +204,7 @@ export default {
         width: 570px;
         height: 380px;
   }
-
+.project-content {
+  text-decoration: none!important;;
+}
 </style>

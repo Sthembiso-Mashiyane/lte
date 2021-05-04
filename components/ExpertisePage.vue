@@ -10,7 +10,7 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 col-12 offset-md-3">
+              <div class="col-md-12 col-12">
                 <p class="w-100 text-center">
                   LTE has a diverse offering across a myriad of sectors and,
                   naturally, has formed partnerships with international
