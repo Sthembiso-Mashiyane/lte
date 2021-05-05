@@ -14,7 +14,9 @@
                     >
                   </li>
                   <li>
-                    <a href="tel:0110615700"><i class="flaticon-pin"></i> (011) 061 5700</a>
+                    <a href="tel:0110615700"
+                      ><i class="flaticon-pin"></i> (011) 061 5700</a
+                    >
                   </li>
                   <li>
                     <a href="#"
@@ -52,7 +54,7 @@
                   <ul>
                     <li><nuxt-link to="/">Home</nuxt-link></li>
                     <li><nuxt-link to="/about">About</nuxt-link></li>
-                    <li><nuxt-link to="/media">Media</nuxt-link> </li>
+                    <li><nuxt-link to="/media">Media</nuxt-link></li>
                     <li><nuxt-link to="/projects">Projects</nuxt-link></li>
                     <li><nuxt-link to="/expertise">Expertise</nuxt-link></li>
                     <li><nuxt-link to="/csi">CSI</nuxt-link></li>
@@ -61,7 +63,9 @@
                 </div>
               </div>
               <div class="iso">
-                <span><a href="http://www.lteconsulting.com/quality-policy-statement/">ISO 9001 Certified</a></span>
+                <NuxtLink to="/qualitystatement"
+                  ><span><a>ISO 9001 Certified</a></span></NuxtLink
+                >
               </div>
             </div>
 
@@ -77,13 +81,13 @@
               </div>
               <div id="menu" class="text-left ">
                 <ul class="offcanvas_main_menu text-center">
-                    <li><nuxt-link to="/index-2">Home</nuxt-link></li>
-                    <li><nuxt-link to="/about">About</nuxt-link></li>
-                    <li><nuxt-link to="/media">Media</nuxt-link> </li>
-                    <li><nuxt-link to="/projects">Projects</nuxt-link></li>
-                    <li><nuxt-link to="/expertise">Expertise</nuxt-link></li>
-                    <li><nuxt-link to="/csi">CSI</nuxt-link></li>
-                    <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+                  <li><nuxt-link to="/index-2">Home</nuxt-link></li>
+                  <li><nuxt-link to="/about">About</nuxt-link></li>
+                  <li><nuxt-link to="/media">Media</nuxt-link></li>
+                  <li><nuxt-link to="/projects">Projects</nuxt-link></li>
+                  <li><nuxt-link to="/expertise">Expertise</nuxt-link></li>
+                  <li><nuxt-link to="/csi">CSI</nuxt-link></li>
+                  <li><nuxt-link to="/contact">Contact</nuxt-link></li>
                 </ul>
               </div>
               <div class="offcanvas_footer">
@@ -113,28 +117,27 @@ export default {
 </script>
 
 <style scoped>
-
 @media only screen and (min-width: 992px) {
-.header-top-2 {
-  padding: 6px!important;
+  .header-top-2 {
+    padding: 6px !important;
+  }
+  .header-info {
+    margin-left: 230px;
+  }
 }
-.header-info{
-  margin-left: 230px;
-}
-}
-.iso a, .iso span {
-    padding: 3px 6px 3px 6px;
-    background: #eaeaff;
-    color: #21409a;
-    height: 50px;
-    border-radius: 5px;
-    width: 100%;
-    text-align: center;
-    vertical-align: middle;
+.iso a,
+.iso span {
+  padding: 3px 6px 3px 6px;
+  /* background: #eaeaff; */
+  color: #21409a;
+  height: 50px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
 }
 .iso {
-    width: 20%;
-    height: 100%;
-    /* display: flex; */
+  height: 100%;
+  /* display: flex; */
 }
 </style>

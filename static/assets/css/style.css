@@ -70,7 +70,7 @@ h5,
 h6 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  color: #192437;
+  color: #000;
   margin: 0px;
   letter-spacing: .4px; }
 
@@ -1258,7 +1258,7 @@ p {
         top: 0; }
 
 .industri-services-area {
-  background: #f4f4f5;
+  /* background: #f4f4f5; */
   padding-top: 106px;
   padding-bottom: 120px; }
   .industri-services-area .services-title {
