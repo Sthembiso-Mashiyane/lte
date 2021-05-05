@@ -44,6 +44,7 @@ export default {
   */
   plugins: [
     {src: 'plugins/owl.js', ssr: false},
+    {src: 'plugins/vue-aos.js', ssr: false},
   ],
   /*
   ** Nuxt.js dev-modules
