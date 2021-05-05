@@ -60,6 +60,9 @@
                   </ul>
                 </div>
               </div>
+              <div class="iso">
+                <span><a href="http://www.lteconsulting.com/quality-policy-statement/">ISO 9001 Certified</a></span>
+              </div>
             </div>
 
             <div
@@ -118,5 +121,20 @@ export default {
 .header-info{
   margin-left: 230px;
 }
+}
+.iso a, .iso span {
+    padding: 3px 6px 3px 6px;
+    background: #eaeaff;
+    color: #21409a;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.iso {
+    width: 20%;
+    height: 100%;
+    /* display: flex; */
 }
 </style>

@@ -25,7 +25,7 @@
   import BrandArea from "../components/BrandArea";
   import LeadershipPage from "../components/LeadershipPage";
   import ContactArea from "../components/ContactArea";
-  import imgUrl from '~/assets/about-us-atf.png'
+  import imgUrl from '~/assets/about-new.jpg'
   export default {
     components: {
       ContactArea,
