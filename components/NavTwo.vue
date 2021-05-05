@@ -92,8 +92,8 @@
               </div>
               <div class="offcanvas_footer">
                 <span
-                  ><a href="mailto:tanvirahmed8282@gmail.com"
-                    ><i class="fa fa-envelope-o"></i> Insync-sa@gmail.com</a
+                  ><a href="mailto:needhelp@lteconsulting.co.za"
+                    ><i class="fa fa-envelope-o"></i> needhelp@lteconsulting.co.za</a
                   ></span
                 >
               </div>
@@ -138,6 +138,40 @@ export default {
 }
 .iso {
   height: 100%;
+      display: none;
   /* display: flex; */
+}
+
+@media (min-width: 576px) {
+  .iso {
+    height: 0%;
+      display: none;
+
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+  .iso {
+    height: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .iso {
+    height: 100%;
+      display: block;
+
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .iso {
+    height: 100%;
+      display: block;
+
+  }
 }
 </style>

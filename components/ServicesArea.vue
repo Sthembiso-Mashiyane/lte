@@ -48,9 +48,9 @@
                   data-aos-duration="3000"
                   data-aos-offset="300"
                 >
-                  <b>
+                  <h2 class="h2">
                     IMPROVEMENT IN CONDITIONS AND QUALITY OF LIFE IN THE AFRICAN
-                    POPULATION </b
+                    POPULATION </h2
                   ><br />
                   <p class="pt-3">
                     With the proficient planning and cost-effective completion
@@ -75,9 +75,9 @@
                   data-aos-duration="3000"
                   data-aos-offset="300"
                 >
-                  <b>
+                  <h2 class="h2">
                     CREATING SUSTAINABLE VALUE THROUGH SUCCESSFUL ENGINEERED
-                    STRUCTURAL MODIFICATIONS </b
+                    STRUCTURAL MODIFICATIONS </h2
                   ><br /><br />
                   <p>
                     From the initial to the life-cycle stages of a project – LTE
@@ -103,8 +103,8 @@
                   data-aos-duration="3000"
                   data-aos-offset="300"
                 >
-                  <b> EFFECTING QUALITY PROCESSES TO IMPROVE BUSINESSES </b
-                  ><br />
+                  <h2 class="h2"> EFFECTING QUALITY PROCESSES TO IMPROVE BUSINESSES </h2>
+                  <br />
                   <p class="pt-3">
                     By respecting a value chain, a collective decision, people
                     and time, LTE Holdings approaches all projects with

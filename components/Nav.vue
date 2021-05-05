@@ -164,10 +164,9 @@
                 </ul>
               </div>
               <div class="offcanvas_footer">
-                <span><a href="mailto:tanvirahmed8282@gmail.com"><i class="fa fa-envelope-o"></i> Insync-sa@gmail.com</a></span>
+                <span><a href="mailto: needhelp@lteconsulting.co.za"><i class="fa fa-envelope-o"></i>  needhelp@lteconsulting.co.za</a></span>
               </div>
             </div>
-
           </div>
         </div>
       </div>

@@ -2436,11 +2436,11 @@ p {
       background: #ffac18;
       border-color: #ffac18; }
       .project-area .project-item:hover .project-content span {
-        color: #fff; }
+        color: #000; }
       .project-area .project-item:hover .project-content p {
-        color: #ffe5dc; }
+        color: #000; }
         .project-area .project-item:hover .project-content p::before {
-          background: #fff; }
+          background: #000; }
     .project-area .project-item:hover .project-thumb img {
       transform: scale(1.1); }
   .project-area .project-active .slick-dots {
@@ -2511,7 +2511,7 @@ p {
       top: -135px;
       right: 0;
       min-width: 495px;
-      background: #fff;
+      background: #000;
       padding: 56px 0 58px 165px; }
       @media (max-width: 767px) {
         .project-contact-area .project-contact-item .urgent-call-item {
@@ -2545,7 +2545,7 @@ p {
         text-transform: uppercase;
         letter-spacing: 2px; }
     .project-contact-area .project-contact-item .title {
-      color: #fff;
+      color: #000;
       font-weight: 400;
       font-size: 50px;
       line-height: 60px;
@@ -4763,7 +4763,7 @@ p {
         padding: 20px; } }
     @media only screen and (min-width: 576px) and (max-width: 767px) {
       .leadership-area .leadership-item {
-        padding: 60px 60px 52px; } }
+        padding: 5px 5px 5px; } }
     .leadership-area .leadership-item .leadership-thumb {
       position: relative; }
       .leadership-area .leadership-item .leadership-thumb .social {
@@ -4825,10 +4825,8 @@ p {
       padding-bottom: 9px; }
     .leadership-area .leadership-item .leadership-content p {
       font-size: 18px;
-      font-weight: 300;
       color: #7e8591;
-      line-height: 34px;
-      padding: 0 10px; }
+    }
     .leadership-area .leadership-item:hover {
       box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.04); }
       .leadership-area .leadership-item:hover .leadership-thumb .social > a i::before {

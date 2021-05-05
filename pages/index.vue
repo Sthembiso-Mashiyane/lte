@@ -3,13 +3,13 @@
     <NavTwo />
     <PageHeader title="" :imgUrl="imgUrl" :isHome="true" class="fh" />
     <HomeCopy />
-    <ServicesArea />
+        <ServicesArea />
     <VideoATF />
     <FunFatcTwoArea />
     <RelationshipArea />
     <ProjectTwoArea />
-    <!--     <BetterFutureArea />-->
-    <!--     <BrandArea />-->
+<!--     <BetterFutureArea />-->
+<!--     <BrandArea />-->
     <!-- <BlogTwoArea /> -->
     <GMap />
     <Footer />
@@ -67,7 +67,7 @@ export default {
   },
   watch: {
     "$route.params.csi": function() {
-      console.log("scrolling");
+      console.log('scrolling');
       window.scrollTo(0, 0);
     }
   }

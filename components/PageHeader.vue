@@ -1,5 +1,5 @@
 <template>
-  <div class="page-title-area bg_cover pt-120" :style="{ backgroundImage: `url(${imgUrl})`}" :class="{'home-nav': isHome}">
+  <div class="page-title-area bg_cover vh-70 pt-120" :style="{ backgroundImage: `url(${imgUrl})`}" :class="{'home-nav': isHome}">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -10,7 +10,7 @@
         <div class="col-xs-12 col-sm-12 col-md-8"></div>
         <div class="col-xs-12 col-sm-12 col-md-4 text-center">
            <div v-if="isHome" class="home-logo pt-5">
-              <img src="../assets/footer/20years.png" class="logo" alt="">
+              <img src="../assets/home/home-ATF-2.png" class="logo" alt="">
             </div>
         </div>
       </div>
@@ -49,5 +49,9 @@
 
   .home-logo {
     justify-content:right ;
+  }
+
+  .vh-70{
+    height: 60vh !important;
   }
 </style>

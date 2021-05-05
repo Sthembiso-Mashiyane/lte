@@ -142,8 +142,8 @@
         </div>
         <div class="footer-copyright text-center">
           <p>
-            © Copyright 2021 by
-            <a target="blank_" href="https://www.insync-sa.co.za/">In-Sync</a>
+            © Copyright 2021 LTE Consulting
+            <!-- <a target="blank_" href="https://www.insync-sa.co.za/">In-Sync</a> -->
           </p>
         </div>
       </div>
