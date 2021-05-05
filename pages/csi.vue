@@ -3,7 +3,7 @@
     <NavTwo />
     <PageHeader title="CSI" :imgUrl="imgUrl" />
     <CSIInfo />
-     <div class="" v-for="csi of images" :key="csi.id">
+     <div v-for="csi of images" :key="csi.id">
       <CSIInteractive :selectedCSI="csi" />
     </div>
     <!-- <CSIFooter v-on:onCSIChanged="onCSIChanged($event)"/> -->
@@ -24,6 +24,8 @@ import imgSrc_nh_01 from "~/assets/csi/NYAKALLONG_HOME/IMG-20190618-WA0013.jpg";
 import imgSrc_lpp_03 from "~/assets/csi/LION PARK PRIMARY/20190718_133924.jpg";
 import imgSrc_msa_01 from "~/assets/csi/MRS SOUTH AFRICA/IMG-20190618-WA0015.jpg";
 import imgSrc_bbq from "~/assets/csi/BBQ/BBQ_2020.jpg";
+import imgSrc_uj from "~/assets/UJ.jpg";
+
 export default {
   components: {
     PageHeader,
@@ -85,6 +87,19 @@ export default {
             "Beyond many initiatives directly linked to education, LTE has assisted departments such as the Department of Local Government and Housing through the MEC’s office to build and furnish houses for disadvantaged families in many underdeveloped places such as Duduza, Tsakane and Hammanskraal."
           ],
           img_url: imgSrc_bbq
+        },
+        {
+          id: "gauteng-top-universities",
+          name: "GAUTENG TOP UNIVERSITIES",
+          hTag: "LTE Assists Gauteng's Top Universities",
+          pTag: [
+            "Through the efforts of Thulani Majola, LTE Executive Chairman & Group CEO, LTE has formed a partnership with three of the country's top institutions of higher learning in Gauteng being Wits University (Wits), Tshwane University of Technology (TUT) and the University of Johannesburg (UJ) to support the development of young Civil Engineers.",
+            "As a formidable business in the built environment, we recognised the need to contribute towards the development of talented young engineers, especially those coming from previously disadvantaged communities and backgrounds. It is vital that underprivileged youth be encouraged to pursue their desired career path to completion and forge sustainable careers by offering them as much support as possible.",
+            "LTE has contributed in excess of R1.5m in tuition fees to students in the engineering faculties who could not graduate due to arrears in tuition fees through this partnership Wits, TUT and UJ. It is our hope that more students can be championed for their achievements rather than hindered from attaining financial independence and having a career as a result of financial exclusion.",
+            "--",
+            `"You cannot build a house for last year's summer" The Gurage, Ethiopia`
+          ],
+          img_url: imgSrc_uj
         }
       ];
       return all;

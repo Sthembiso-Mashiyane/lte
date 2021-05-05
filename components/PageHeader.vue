@@ -1,5 +1,8 @@
 <template>
   <div class="page-title-area bg_cover pt-120" :style="{ backgroundImage: `url(${imgUrl})`}" :class="{'home-nav': isHome}">
+     <div class="page-shadow">
+      <!-- <img src="/assets/images/page-shadow.png" alt=""> -->
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -49,5 +52,11 @@
 
   .home-logo {
     justify-content:right ;
+  }
+
+  .page-shadow {
+    background-color: rgba(0,0,0, 0.5);
+    width: 100vw;
+    height: 100%;
   }
 </style>
